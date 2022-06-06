@@ -1,0 +1,15 @@
+D:\Greyhound\Greyhound.Data\bin\Release\net5.0\Greyhound.Data.deps.json
+D:\Greyhound\Greyhound.Data\bin\Release\net5.0\Greyhound.Data.runtimeconfig.json
+D:\Greyhound\Greyhound.Data\bin\Release\net5.0\Greyhound.Data.runtimeconfig.dev.json
+D:\Greyhound\Greyhound.Data\bin\Release\net5.0\Greyhound.Data.dll
+D:\Greyhound\Greyhound.Data\bin\Release\net5.0\Greyhound.Data.pdb
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.csproj.AssemblyReference.cache
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.AssemblyInfoInputs.cache
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.AssemblyInfo.cs
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.csproj.CoreCompileInputs.cache
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.dll
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\refint\Greyhound.Data.dll
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.pdb
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\Greyhound.Data.genruntimeconfig.cache
+D:\Greyhound\Greyhound.Data\obj\Release\net5.0\ref\Greyhound.Data.dll

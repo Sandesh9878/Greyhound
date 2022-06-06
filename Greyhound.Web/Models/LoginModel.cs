@@ -2,7 +2,7 @@
 
 namespace Greyhound.Web.Models
 {
-    public class LoginUserModel
+    public class RegisterUserModel
     {
         [Required]
         [EmailAddress]

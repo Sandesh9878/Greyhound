@@ -1,10 +1,11 @@
-﻿using Greyhound.Web.Areas.Identity.Pages.Account;
+﻿using System;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Logging;
-using System;
 using Greyhound.Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Greyhound.Web.Areas.Identity.Pages.Account;
+using System.Threading.Tasks;
 
 namespace Greyhound.Web.Controllers
 {
@@ -12,29 +13,47 @@ namespace Greyhound.Web.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
-        private readonly ILogger<LoginController> _logger;
-        private readonly IEmailSender _emailSender;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly ILogger<LoginModel> _logger;
 
         public LoginController(
-            UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
-            ILogger<LoginController> logger,
-            IEmailSender emailSender)
+            ILogger<LoginModel> logger,
+            UserManager<IdentityUser> userManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
-            _emailSender = emailSender;
         }
 
         [HttpPost]
         [Route("Login")]
-        public ResponseModel Login(LoginUserModel model)
+        public async Task<ResponseModel> Login(LoginViewModel model)
         {
             try
             {
+                if (ModelState.IsValid)
+                {
+                    var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                    if (result.Succeeded)
+                    {
+                        _logger.LogInformation("User logged in.");
+                        return new ResponseModel(true, "User logged in.");
+                    }
+                    if (result.RequiresTwoFactor)
+                    {
+                        return new ResponseModel(false, "Login failed");
+                    }
+                    if (result.IsLockedOut)
+                    {
+                        return new ResponseModel(false, "User account locked out.");
+                    }
+                    else
+                    {
+                        return new ResponseModel(false, "Invalid login attempt.");
+                    }
+                }
                 return new ResponseModel(true, "Login Successful");
             }
             catch (Exception ex)

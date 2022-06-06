@@ -38,7 +38,7 @@ namespace Greyhound.Web.Controllers
 
         [HttpPost]
         [Route("RegisterUser")]
-        public async Task<ResponseModel> RegisterUser([FromBody] LoginUserModel model)
+        public async Task<ResponseModel> RegisterUser([FromBody] RegisterUserModel model)
         {
             try
             {
