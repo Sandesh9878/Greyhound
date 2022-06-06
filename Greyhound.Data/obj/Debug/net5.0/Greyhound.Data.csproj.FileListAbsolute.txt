@@ -1,0 +1,15 @@
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\bin\Debug\net5.0\Greyhound.Data.deps.json
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\bin\Debug\net5.0\Greyhound.Data.runtimeconfig.json
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\bin\Debug\net5.0\Greyhound.Data.runtimeconfig.dev.json
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\bin\Debug\net5.0\Greyhound.Data.dll
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\bin\Debug\net5.0\Greyhound.Data.pdb
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.csproj.AssemblyReference.cache
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.AssemblyInfoInputs.cache
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.AssemblyInfo.cs
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.csproj.CoreCompileInputs.cache
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.dll
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\refint\Greyhound.Data.dll
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.pdb
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\Greyhound.Data.genruntimeconfig.cache
+C:\Users\Sandesh.Maharjan\Desktop\Greyhound\Greyhound.Data\obj\Debug\net5.0\ref\Greyhound.Data.dll
