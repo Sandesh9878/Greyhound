@@ -6121,11 +6121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Greyhound\\Greyhound.Data\\Greyhound.Data.csproj",
+      "projectUniqueName": "D:\\Greyhound\\Greyhound.Data\\Greyhound.Data.csproj",
       "projectName": "Greyhound.Data",
-      "projectPath": "D:\\Project\\Greyhound\\Greyhound.Data\\Greyhound.Data.csproj",
+      "projectPath": "D:\\Greyhound\\Greyhound.Data\\Greyhound.Data.csproj",
       "packagesPath": "C:\\Users\\Sandesh.Maharjan\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Greyhound\\Greyhound.Data\\obj\\",
+      "outputPath": "D:\\Greyhound\\Greyhound.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sandesh.Maharjan\\AppData\\Roaming\\NuGet\\NuGet.Config",

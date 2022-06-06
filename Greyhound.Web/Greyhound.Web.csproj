@@ -20,4 +20,8 @@
     <Folder Include="App_start\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Greyhound.Data\Greyhound.Data.csproj" />
+  </ItemGroup>
+
 </Project>
