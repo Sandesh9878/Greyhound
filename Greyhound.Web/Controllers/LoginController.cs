@@ -6,6 +6,7 @@ using Greyhound.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Greyhound.Web.Areas.Identity.Pages.Account;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Greyhound.Web.Controllers
 {
@@ -54,6 +55,21 @@ namespace Greyhound.Web.Controllers
                         return new ResponseModel(false, "Invalid login attempt.");
                     }
                 }
+                return new ResponseModel(true, "Login Successful");
+            }
+            catch (Exception ex)
+            {
+                return new ResponseModel(false, "Login failed");
+            }
+        }
+
+        [HttpPost]
+        [Route("Logout")]
+        [Authorize]
+        public async Task<ResponseModel> Logout()
+        {
+            try
+            {
                 return new ResponseModel(true, "Login Successful");
             }
             catch (Exception ex)

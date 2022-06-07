@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Greyhound.Web.CustomAttributes
 {
-    public class CustomAuthorize : AuthorizeAttribute
+    public class CustomAuthorize : AuthorizeAttribute,IAuthorizationFilter
     {
         private readonly bool _authorize;
 
@@ -15,6 +17,10 @@ namespace Greyhound.Web.CustomAttributes
         {
             _authorize = authorize;
         }
-        
+        public void OnAuthorization(AuthorizationFilterContext context)
+        {
+            var a = context.HttpContext.Request;
+            
+        }
     }
 }

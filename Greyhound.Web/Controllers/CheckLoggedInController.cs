@@ -1,4 +1,5 @@
-﻿using Greyhound.Web.Models;
+﻿using Greyhound.Web.CustomAttributes;
+using Greyhound.Web.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
